@@ -305,93 +305,42 @@ body {
    justify-content: space-between;
 }
 
-
-/* HEADER */ 
-
-.up-a {
-	text-decoration: none;
-	padding-right: 5px;
-	font-size: 20px;
-	color: blue;
-}
-
-.up-a:hover {
-	color: red;
-}
-
 /* Block 1 single page */
 
-.block-single-page {
-	background-color: orange;
+.block-single-page{
+	background: black;
+	text-align: center;
+	color: white;
 	margin-top: 5px;
 }
 
-.img-messi {
-	height: 230px;
-	margin-top: 15px;
-	margin-left: 20px;
-	margin-bottom: 10px;
+.football-text {
+    padding-top: 10px;
+	padding-bottom: 2px;
 }
 
-.img-deeyong {
-   height: 230px;
-   margin-top: 15px;
-   margin-left: 20px;
-   margin-bottom: 10px;
+.text-foot {
+	padding-right: 10px;
+	padding-left: 10px;
 }
 
-.img-salch {
-   height: 230px;
-   margin-top: 15px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   margin-left: 20px;
+.genese {
+	padding-bottom: 2px;
+	padding-top: 10px;
 }
 
-/* Block 2 single page */
-
-.conte {
-	height: 225px;
-	margin-top: 15px;
-	margin-left: 40px;
-	margin-bottom: 10px;
+.genese-foot {
+   padding-right: 2px;
+   padding-left: 10px;
 }
 
-.league {
-   height: 220px;
-   margin-top: 15px;
-   margin-left: 20px;
-   margin-bottom: 10px;
+.reglement {
+   padding-top: 10px;
+   padding-bottom: 2px;
 }
 
-.grizman {
-   height: 220px;
-   margin-top: 15px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   margin-left: 20px;
+.reglement-text {
+   padding-right: 2px;
+   padding-left: 10px;
 }
 
-/* Block 3 single page */
-
-.ronaldo {
-	height: 225px;
-	margin-top: 15px;
-	margin-left: 60px;
-	margin-bottom: 10px;
-}
-
-.during {
-   height: 220px;
-   margin-top: 15px;
-   margin-left: 20px;
-   margin-bottom: 10px;
-}
-
-.neymar {
-   height: 220px;
-   margin-top: 15px;
-   margin-right: 20px;
-   margin-bottom: 10px;
-   margin-left: 20px;
-}
