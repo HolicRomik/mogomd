@@ -61,6 +61,7 @@ body {
 	text-decoration: none;
 	padding-right: 5px;
 	font-size: 20px;
+	color: blue;
 }
 
 .up:hover {
@@ -93,6 +94,7 @@ body {
 	text-decoration: none;
 	padding-right: 5px;
 	position: relative;
+	color: blue;
 }
 
 .nav-nav:hover {
@@ -275,6 +277,20 @@ body {
    color: white;
    display: flex;
    justify-content: space-between;
+}
+
+
+/* HEADER */ 
+
+.up-a {
+	text-decoration: none;
+	padding-right: 5px;
+	font-size: 20px;
+	color: blue;
+}
+
+.up-a:hover {
+	color: red;
 }
 
 /* Block 1 single page */
