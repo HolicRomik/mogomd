@@ -308,8 +308,9 @@ body {
 .logo {
 	text-align: center;
 	border-bottom: 3px solid #5200a5;
-	padding-top: 10px;
+	margin-top: 40px;
 	padding-bottom: 10px;
+	font-size: 45px;
 }
 
 .main-login {
@@ -326,7 +327,7 @@ body {
 
 .login {
 	height: 500px;
-	width: 450px;
+	width: 400px;
 	background-color: rgba(0, 186, 255, 0.77);
 	margin-left: auto;
 	margin-right: auto;
@@ -357,7 +358,7 @@ body {
 
 .input {
 	height: 30px;
-	width: 400px;
+	width: 370px;
 	border-top-right-radius: 10px;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
@@ -416,7 +417,7 @@ button:hover {
 
 .footer-page {
 	text-align: center;
-	margin-top: 66px;
+	margin-top: 72px;
 	background-color: grey;
 	height: 40px;
 }
