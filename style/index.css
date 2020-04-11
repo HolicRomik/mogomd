@@ -276,11 +276,11 @@ body {
 }
 
 .body {
-    background-color: orange;
+	background-color: orange;
 }
 
 .wrapper-single-page {
-	max-width: 1300px;
+	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
