@@ -184,7 +184,7 @@ body {
 
 .table {
 	color: white;
-	margin-top: 25px;
+	margin: 10px;
 }
 
 .input-bottom {
@@ -195,11 +195,12 @@ body {
 	margin-top: 25px;
 	margin-bottom: 20px;
 	margin-right: 30px;
+	margin-left: 10px;
 }
 
 .input-top {
 	color: white;
-	margin-top: 25px;
+	margin: 10px;
 }
 
 .inputfoot {
@@ -218,7 +219,7 @@ body {
 
 .top-input {
 	color: white;
-	margin-top: 25px;
+	margin: 10px;
 }
 
 .input-footer {
