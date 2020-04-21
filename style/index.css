@@ -268,24 +268,18 @@ body {
 	background-color: orange;
 }
 
+.login {
+    display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
 .logo {
 	text-align: center;
 	border-bottom: 3px solid #5200a5;
 	margin-top: 40px;
 	padding-bottom: 10px;
 	font-size: 35px;
-}
-
-.login {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
-}
-
-.main-log {
-	display: flex;
-	justify-content: center;
-	margin-top: 50px;
 }
 
 .login {
@@ -401,6 +395,7 @@ button:hover {
 .contact:hover {
 	color: rebeccapurple;
 }
+
 
 @media (max-width: 1200px){
 	.wrapper {
