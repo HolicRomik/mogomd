@@ -276,7 +276,7 @@ body {
 	font-size: 35px;
 }
 
-.main-login {
+.login {
 	display: flex;
 	justify-content: center;
 	margin-top: 50px;
@@ -295,6 +295,8 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	box-shadow: 2px 2px 5px rgba(0,0, 0, 0.82);
+	display: block;
+	justify-content: center;
 }
 
 .groupe {
@@ -320,9 +322,9 @@ body {
 }
 
 .input {
-	height: 30px;
-	width: 300px;
-	border-top-right-radius: 10px;
+   height: 30px;
+   width: 300px;
+   border-top-right-radius: 10px;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
    border-bottom-right-radius: 10px;
@@ -380,7 +382,7 @@ button:hover {
 
 .footer-page {
 	text-align: center;
-	margin-top: 72px;
+	margin-top: 101px;
 	background-color: grey;
 	height: 40px;
 }
@@ -435,3 +437,4 @@ button:hover {
 		max-width: none;
 	}
 }
+
