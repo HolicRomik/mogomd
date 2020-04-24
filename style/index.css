@@ -284,7 +284,7 @@ body {
 
 .login {
 	height: 500px;
-	width: 430px;
+	max-width: 100%;
 	background-color: rgba(0, 186, 255, 0.77);
 	margin-left: auto;
 	margin-right: auto;
@@ -317,7 +317,7 @@ body {
 
 .input {
    height: 30px;
-   width: 400px;
+   width: 370px;
    border-top-right-radius: 10px;
    border-top-left-radius: 10px;
    border-bottom-left-radius: 10px;
@@ -427,19 +427,26 @@ button:hover {
 	}
 }
 
-@media (max-width: 767px){
+@media (max-width: 40%){
 	.wrapper-single-page {
 		max-width: none;
 	}
 }
 
-@media (max-width: 450px){
+@media (max-width: 2000px){
 	.login {
-		width: 300px;
-	}
-
-	.input {
-		width: 270px;
+		width: 400px;
 	}
 }
 
+@media (max-width: 400px){
+	.input {
+		width: 130px;
+	}
+}
+
+@media (max-width: 100%){
+	.logo {
+		font-size: 25px;
+	}
+}
