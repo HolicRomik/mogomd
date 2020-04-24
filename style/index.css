@@ -445,7 +445,6 @@ button:hover {
 	}	
 }
 
-
 @media (max-width: 400px){
 	.login {
 		width:  none;
@@ -453,8 +452,15 @@ button:hover {
 }
 
 
+@media (max-width: 400px){
+	.groupe {
+		display: flex;
+		justify-content: center;
+	}	
+}
+
 @media (max-width: 100%){
 	.logo {
-		font-size: 25px;
+		font-size: 20px
 	}
 }
