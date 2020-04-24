@@ -418,6 +418,18 @@ button:hover {
 	}
 }
 
+@media (max-width: 992px){
+	.wrapper-single-page {
+		max-width: 750px;
+	}
+}
+
+@media (max-width: 767px){
+	.wrapper-single-page {
+		max-width: none;
+	}
+}
+
 @media (max-width: 400px){
 	.input {
 		width: 130px;
@@ -429,21 +441,7 @@ button:hover {
 		width:  400px;
 		display: block;
 		justify-content: center;
-	}
-}
-
-@media (max-width: 400px){
-	.login {
-		width:  none;
-	}
-}
-
-
-@media (max-width: 2000px){
-	.groupe {
-		display: block;
-		justify-content: center;
-	}
+	}	
 }
 
 @media (max-width: 100%){
