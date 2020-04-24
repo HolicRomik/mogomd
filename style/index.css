@@ -285,7 +285,7 @@ body {
 
 .login {
 	height: 500px;
-	width: 90%;
+	max-width: 400px;
 	background-color: rgba(0, 186, 255, 0.77);
 	margin-left: auto;
 	margin-right: auto;
@@ -433,29 +433,23 @@ button:hover {
 
 @media (max-width: 400px){
 	.input {
-		width: 130px;
+		width: none;
 	}
 }
 
 @media (max-width: 2000px){
 	.login {
-		width:  400px;
+		width:  none;
 		display: block;
 		justify-content: center;
 	}	
 }
 
 @media (max-width: 400px){
-	.login {
-		width:  none;
-	}	
-}
-
-
-@media (max-width: 400px){
 	.groupe {
 		display: flex;
 		justify-content: center;
+		flex-wrap: wrap;
 	}	
 }
 
