@@ -257,7 +257,7 @@ body {
 }
 
 .body {
-	background-color: orange;
+	background-color: gray;
 }
 
 .wrapper-single-page {
@@ -266,7 +266,7 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	height: 100%;
-	background-color: orange;
+	background-color: gray;
 }
 
 .login {
@@ -375,7 +375,7 @@ button:hover {
 .footer-page {
 	text-align: center;
 	margin-top: 101px;
-	background-color: grey;
+	background-color: blue;
 	height: 40px;
 }
 
@@ -442,6 +442,13 @@ button:hover {
 		width:  none;
 		display: block;
 		justify-content: center;
+	}	
+}
+
+@media (max-width: 400px){
+	.login {
+		margin-right: 5px;
+		margin-left: 5px;
 	}	
 }
 
