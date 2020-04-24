@@ -432,13 +432,12 @@ button:hover {
 	}
 }
 
-@media (max-width: 500px){
+@media (max-width: 400px){
 	.login {
-		width: none;
-		margin-right: 5px;
-		margin-left: 5px;
+		width:  none;
 	}
 }
+
 
 @media (max-width: 2000px){
 	.groupe {
