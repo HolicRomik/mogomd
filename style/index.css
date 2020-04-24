@@ -261,6 +261,7 @@ body {
 }
 
 .wrapper-single-page {
+	width: 100%;
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
@@ -443,6 +444,14 @@ button:hover {
 		justify-content: center;
 	}	
 }
+
+
+@media (max-width: 400px){
+	.login {
+		width:  none;
+	}	
+}
+
 
 @media (max-width: 100%){
 	.logo {
